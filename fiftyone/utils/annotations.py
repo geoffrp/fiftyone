@@ -1874,7 +1874,7 @@ class AnnotationBackend(foa.AnnotationMethod):
         This list defines the valid string values for the ``type`` field of
         an attributes dict of the label schema provided to the backend.
 
-        For example, CVAT supports ``["text", "select", "radio", "checkbox"]``.
+        For example, CVAT supports ``["text", "select", "radio", "checkbox", "number"]``.
         """
         raise NotImplementedError(
             "subclass must implement supported_attr_types"

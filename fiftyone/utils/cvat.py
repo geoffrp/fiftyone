@@ -3189,6 +3189,7 @@ class CVATBackend(foua.AnnotationBackend):
             "select",
             "radio",
             "checkbox",
+            "number",
             "occluded",
             "group_id",
         ]
